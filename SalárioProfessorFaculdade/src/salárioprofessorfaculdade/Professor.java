@@ -113,7 +113,7 @@ public class Professor {
         } else {
             dados = "Nome do professor: " + nome
                     + "\nMatrícula: " + matricula
-                    + "\nSituação: " + ativo
+                    + "\nSituação: Ativo"
                     + "\nCategoria: " + categoria.getNomeCategoria()
                     + "\nHoras trabalhadas por mês: " + horasMes
                     + "\nSalário/hora: R$" + mascara.format(categoria.getValorHora())

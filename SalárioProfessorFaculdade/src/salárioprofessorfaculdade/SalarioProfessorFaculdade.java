@@ -12,7 +12,7 @@ public class SalarioProfessorFaculdade {
 
         Professor professor;
 
-        String nome = JOptionPane.showInputDialog(null, "Informe o nome do proffessor:", "Salario", 3);
+        String nome = JOptionPane.showInputDialog(null, "Informe o nome do professor:", "Salario", 3);
 
         String matricula = JOptionPane.showInputDialog(null, "Informe a matrícula do professor:", "Salario", 3);
         
@@ -35,7 +35,7 @@ public class SalarioProfessorFaculdade {
         switch (opçãoUser) {
             case "Listar informações":
                 
-               JOptionPane.showMessageDialog(null, "As informações do professor são são:\n" + professor.dados(), "Salario", 1);
+               JOptionPane.showMessageDialog(null, "As informações do professor são:\n" + professor.dados(), "Salario", 1);
             
             break;
             case "Reajustar valor da hora de trabalho":
